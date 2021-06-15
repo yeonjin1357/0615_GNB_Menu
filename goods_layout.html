@@ -2,9 +2,63 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>상품 이미지 구현</title>
+    <link rel="stylesheet" href="style/style_Common.css">
+
+    <style>
+        div#goods{
+            width: 240px;
+            height: 200px;
+            border: 1px dotted #000;
+            border-radius: 10px;
+            margin: 0 auto;
+
+            background-image: url(images/bg1.png);
+
+            background-repeat:no-repeat;
+            background-size: cover;
+
+            background-size: 80%;
+        }
+
+        hgroup{
+            margin-top: 110px;
+            /*border: 1px solid #000;*/
+            background-color: rgba(255, 255, 255, 0.5);
+
+            /*position: relative;
+            top: 110px;*/
+        }
+
+        hgroup>*{
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        hgroup>h2{
+            margin-bottom: 20px;
+            color: #a56777;
+        }
+
+        hgroup>h4{
+            color: #4b70b9;
+        }
+
+    </style>
+
 </head>
 <body>
+    <div id="wrap">
 
+        <div id="goods">
+
+            <hgroup>
+                <h2>꽃다발</h2>
+                <h4>말괄량이</h4>
+            </hgroup>
+
+        </div>
+
+    </div>
 </body>
 </html>

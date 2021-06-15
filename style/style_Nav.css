@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+nav#gnb {
+    border: 1px solid #aaa;
+
+}
+
+#gnb a {
+    padding: 0px 50px;
+    height: 48px;
+    border: 1px solid #08f;
+    text-align: center;
+    line-height: 48px;
+    display: inline-block;
+    font-size: 17px;
+}
+
+#gnb a:hover {
+
+    font-weight: bold;
+
+}
+
+#gnb ul.subMenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
